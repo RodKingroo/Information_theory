@@ -1,0 +1,15 @@
+D:\Project\Info Theory\LZ77 Unpacker\LZ77 Unpacker\bin\Debug\net6.0\LZ77 Unpacker.exe
+D:\Project\Info Theory\LZ77 Unpacker\LZ77 Unpacker\bin\Debug\net6.0\LZ77 Unpacker.deps.json
+D:\Project\Info Theory\LZ77 Unpacker\LZ77 Unpacker\bin\Debug\net6.0\LZ77 Unpacker.runtimeconfig.json
+D:\Project\Info Theory\LZ77 Unpacker\LZ77 Unpacker\bin\Debug\net6.0\LZ77 Unpacker.dll
+D:\Project\Info Theory\LZ77 Unpacker\LZ77 Unpacker\bin\Debug\net6.0\LZ77 Unpacker.pdb
+D:\Project\Info Theory\LZ77 Unpacker\LZ77 Unpacker\obj\Debug\net6.0\LZ77 Unpacker.csproj.AssemblyReference.cache
+D:\Project\Info Theory\LZ77 Unpacker\LZ77 Unpacker\obj\Debug\net6.0\LZ77 Unpacker.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\Info Theory\LZ77 Unpacker\LZ77 Unpacker\obj\Debug\net6.0\LZ77 Unpacker.AssemblyInfoInputs.cache
+D:\Project\Info Theory\LZ77 Unpacker\LZ77 Unpacker\obj\Debug\net6.0\LZ77 Unpacker.AssemblyInfo.cs
+D:\Project\Info Theory\LZ77 Unpacker\LZ77 Unpacker\obj\Debug\net6.0\LZ77 Unpacker.csproj.CoreCompileInputs.cache
+D:\Project\Info Theory\LZ77 Unpacker\LZ77 Unpacker\obj\Debug\net6.0\LZ77 Unpacker.dll
+D:\Project\Info Theory\LZ77 Unpacker\LZ77 Unpacker\obj\Debug\net6.0\refint\LZ77 Unpacker.dll
+D:\Project\Info Theory\LZ77 Unpacker\LZ77 Unpacker\obj\Debug\net6.0\LZ77 Unpacker.pdb
+D:\Project\Info Theory\LZ77 Unpacker\LZ77 Unpacker\obj\Debug\net6.0\LZ77 Unpacker.genruntimeconfig.cache
+D:\Project\Info Theory\LZ77 Unpacker\LZ77 Unpacker\obj\Debug\net6.0\ref\LZ77 Unpacker.dll
