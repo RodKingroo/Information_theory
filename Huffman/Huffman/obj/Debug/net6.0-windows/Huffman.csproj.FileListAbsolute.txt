@@ -1,0 +1,17 @@
+D:\Project\Huffman\Huffman\bin\Debug\net6.0-windows\Huffman.exe
+D:\Project\Huffman\Huffman\bin\Debug\net6.0-windows\Huffman.deps.json
+D:\Project\Huffman\Huffman\bin\Debug\net6.0-windows\Huffman.runtimeconfig.json
+D:\Project\Huffman\Huffman\bin\Debug\net6.0-windows\Huffman.dll
+D:\Project\Huffman\Huffman\bin\Debug\net6.0-windows\Huffman.pdb
+D:\Project\Huffman\Huffman\obj\Debug\net6.0-windows\Huffman.csproj.AssemblyReference.cache
+D:\Project\Huffman\Huffman\obj\Debug\net6.0-windows\Huffman.FHuffman.resources
+D:\Project\Huffman\Huffman\obj\Debug\net6.0-windows\Huffman.csproj.GenerateResource.cache
+D:\Project\Huffman\Huffman\obj\Debug\net6.0-windows\Huffman.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\Huffman\Huffman\obj\Debug\net6.0-windows\Huffman.AssemblyInfoInputs.cache
+D:\Project\Huffman\Huffman\obj\Debug\net6.0-windows\Huffman.AssemblyInfo.cs
+D:\Project\Huffman\Huffman\obj\Debug\net6.0-windows\Huffman.csproj.CoreCompileInputs.cache
+D:\Project\Huffman\Huffman\obj\Debug\net6.0-windows\Huffman.dll
+D:\Project\Huffman\Huffman\obj\Debug\net6.0-windows\refint\Huffman.dll
+D:\Project\Huffman\Huffman\obj\Debug\net6.0-windows\Huffman.pdb
+D:\Project\Huffman\Huffman\obj\Debug\net6.0-windows\Huffman.genruntimeconfig.cache
+D:\Project\Huffman\Huffman\obj\Debug\net6.0-windows\ref\Huffman.dll
