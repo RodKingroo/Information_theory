@@ -4,8 +4,8 @@ namespace AAC
     {
         public static void Main(string[] arg)
         {
-            AACHost aacHost = new();
-            aacHost.Run();
+            ProgramHost aac = new();
+            aac.Run();
         }
     }
 }
