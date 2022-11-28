@@ -7,17 +7,17 @@ namespace AAC
         /// <summary> 
         /// Входные данные, прописанные в задании
         /// </summary>
-        private const double input = 759021.0/4194304.0;//0.5790710929829856;
+        private const double input = 0.5790710929829856; //759021.0/4194304.0;
 
         /// <summary> 
         /// Список всех символов
         /// </summary>
         private List<string> letters = new()
         {
-           "A", "B", "C", " " 
-        // "О", "Е", "А", "И", "Н", "Т", "С", "Р", "В", "Л", "К", 
-        // "М", "Д", "П", "У", "Я", "З", "Ы", "Б", "Г", "Ч", "Й", 
-        // "Х", "Ж", "Ъ", "Ь", "Ш", "Ю", "Ц", "Щ", "Э", "Ф", " "
+           // "A", "B", "C", " " 
+            "О", "Е", "А", "И", "Н", "Т", "С", "Р", "В", "Л", "К", 
+            "М", "Д", "П", "У", "Я", "З", "Ы", "Б", "Г", "Ч", "Й", 
+            "Х", "Ж", "Ъ", "Ь", "Ш", "Ю", "Ц", "Щ", "Э", "Ф", " "
         };
 
         /// <summary> 
@@ -25,10 +25,10 @@ namespace AAC
         /// </summary>
         private List<double> size = new()
         {
-            1, 1, 1, 1 
-            //90, 72, 62, 62, 53, 53, 45, 40, 38, 35, 28, 
-            //26, 25, 23, 21, 18, 16, 16, 14, 13, 12, 10, 
-            //9,  7,  7,  7,  6,  6,  4,  3,  3,  1,  1
+            //1, 1, 1, 1 
+            90, 72, 62, 62, 53, 53, 45, 40, 38, 35, 28, 
+            26, 25, 23, 21, 18, 16, 16, 14, 13, 12, 10, 
+            9,  7,  7,  7,  6,  6,  4,  3,  3,  1,  1
         };
 
         /// <summary> 
@@ -52,19 +52,22 @@ namespace AAC
             a.Add(_edgeA);
             for(int i = 0; i < size.Count; i++)
             {
-                double btoa = a[i]+ size[i] * (_edgeB - _edgeA) / asz;
+                double btoa = a[i] + size[size.Count - (i + 1)] * (_edgeB - _edgeA) / asz;
                 b.Add(btoa);
                 a.Add(b[i]);
                 //Console.WriteLine($"{a[i]} - {b[i]}");
             }
 
-            for(int j = 0; j<size.Count; j++)
+            b.Reverse();
+            a.Reverse();
+
+            for(int j = 0; j <= size.Count - 1; j++)
             {
-                //Console.WriteLine($"{a[j]} - {b[j]}");
-                if(a[j] < input && b[j] > input)
+                Console.WriteLine($"{a[j + 1]} - {b[j]}");
+                if(a[j + 1] < input && b[j] > input)
                 {
                     _word.Add(letters[j]);
-                    newValue(a, b, a[j], b[j], j, size, asz);
+                    newValue(a, b, a[j + 1], b[j], j, size, asz);
                     break;
                 }
             }
