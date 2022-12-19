@@ -1,0 +1,15 @@
+D:\Codes\Information_theory\СonvolutionalСoding\bin\Debug\net7.0\СonvolutionalСoding.exe
+D:\Codes\Information_theory\СonvolutionalСoding\bin\Debug\net7.0\СonvolutionalСoding.deps.json
+D:\Codes\Information_theory\СonvolutionalСoding\bin\Debug\net7.0\СonvolutionalСoding.runtimeconfig.json
+D:\Codes\Information_theory\СonvolutionalСoding\bin\Debug\net7.0\СonvolutionalСoding.dll
+D:\Codes\Information_theory\СonvolutionalСoding\bin\Debug\net7.0\СonvolutionalСoding.pdb
+D:\Codes\Information_theory\СonvolutionalСoding\obj\Debug\net7.0\СonvolutionalСoding.csproj.AssemblyReference.cache
+D:\Codes\Information_theory\СonvolutionalСoding\obj\Debug\net7.0\СonvolutionalСoding.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codes\Information_theory\СonvolutionalСoding\obj\Debug\net7.0\СonvolutionalСoding.AssemblyInfoInputs.cache
+D:\Codes\Information_theory\СonvolutionalСoding\obj\Debug\net7.0\СonvolutionalСoding.AssemblyInfo.cs
+D:\Codes\Information_theory\СonvolutionalСoding\obj\Debug\net7.0\СonvolutionalСoding.csproj.CoreCompileInputs.cache
+D:\Codes\Information_theory\СonvolutionalСoding\obj\Debug\net7.0\СonvolutionalСoding.dll
+D:\Codes\Information_theory\СonvolutionalСoding\obj\Debug\net7.0\refint\СonvolutionalСoding.dll
+D:\Codes\Information_theory\СonvolutionalСoding\obj\Debug\net7.0\СonvolutionalСoding.pdb
+D:\Codes\Information_theory\СonvolutionalСoding\obj\Debug\net7.0\СonvolutionalСoding.genruntimeconfig.cache
+D:\Codes\Information_theory\СonvolutionalСoding\obj\Debug\net7.0\ref\СonvolutionalСoding.dll
