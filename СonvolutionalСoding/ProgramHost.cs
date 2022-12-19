@@ -1,102 +1,103 @@
-namespace convol
+namespace СonvolutionalСoding;
+
+public class ProgramHost
 {
-    public class ProgramHost
+    private const string input = """100111011""";
+
+    private readonly List<string> cBA = new List<string>()
     {
-        private const string input = "100111011";
+        "000", "001", "010", "011",
+        "100", "101", "110", "111"
+    };
 
-        internal List<string> CBA = new List<string>()
+
+    private readonly List<string> XY = new List<string>()
+    {
+        "00", "11", "10", "01",
+        "11", "00", "01", "10"
+
+    };
+
+    private List<char> valueCBA = new List<char>()
+    {
+        '0', '0', '0'
+    };
+
+    private List<string> finalXY = new List<string>();
+
+    private List<string> finalBA = new List<string>() { "00" };
+
+    public static string Input => input;
+    internal List<char> ValueCBA { get => valueCBA; set => valueCBA = value; }
+    public List<string> FinalXY { get => finalXY; set => finalXY = value; }
+    internal List<string> FinalBA { get => finalBA; set => finalBA = value; }
+
+    protected void RealiseMethod()
+    {
+        string sCBA = string.Join("", ValueCBA);
+        for (int i = 0; i < cBA.Count; i++)
         {
-            "000", "001", "010", "011",
-            "100", "101", "110", "111"
-        };
-
-        
-        internal List<string> XY = new List<string>()
-        {
-            "00", "11", "10", "01",
-            "11", "00", "01", "10"
-
-        };
-
-        internal List<char> valueCBA = new List<char>() 
-        {
-            '0', '0', '0'
-        };
-     
-        private List<string> finalXY = new List<string>();
-
-        internal List<string> finalBA = new List<string>(){ "00" }; 
-
-        protected void RealiseMethod()
-        {
-            string sCBA = string.Join("", valueCBA);
-            for(int i = 0; i < CBA.Count; i++)
+            if (sCBA == cBA[i])
             {
-                if(sCBA == CBA[i])
-                {
-                    finalXY.Add(XY[i]);
-                    break;
-                }
-                
+                FinalXY.Add(XY[i]);
+                break;
             }
-        }
 
-        protected void ConvertLine()
+        }
+    }
+
+    protected void ConvertLine()
+    {
+        for (var i = 0; i < Input.ToArray().Length; i++)
         {
-            char[] charInput = input.ToArray();
-            for(int i = 0; i < charInput.Length; i++)
-            { 
-                valueCBA.Insert(0, charInput[i]);
-                valueCBA.RemoveAt(valueCBA.Count - 1);
-                RealiseMethod();
-                
-            }
-
-            for (int j = 0; j < finalXY.Count; j++)
-            {
-                int a, b, c = 0;
-                a = Convert.ToInt32(finalBA[j], 2);
-                b = Convert.ToInt32(finalXY[j], 2);
-                var ac = ConvertRed(a, b, c);
-                Console.WriteLine(ac);
-                finalBA.Add(Convert.ToString(ac, 2));
-            }
-
-            finalBA.RemoveAt(0);
+            ValueCBA.Insert(index: 0, item: Input.ToArray()[i]);
+            ValueCBA.RemoveAt(index: ValueCBA.Count - 1);
+            RealiseMethod();
 
         }
 
-        internal int ConvertRed(int a, int b, int c)
+        for (var j = 0; j < FinalXY.Count; j++)
         {
-            switch ((a + b))
-            {
-                case 0:
-                    c = 0;
-                    break;
-                case > 0 and <= 1:
-                    c = 1;
-                    break;
-                case > 1 and <= 2:
-                    c = 2;
-                    break;
-                case > 2 and <= 3:
-                    c = 3;
-                    break;
-                case > 3 and <= 4:
-                    c = 4;
-                    break;
-            }
-            return c;
+            int a, b, c = 0;
+            a = Convert.ToInt32(value: FinalBA[j], 2);
+            b = Convert.ToInt32(value: FinalXY[j], 2);
+            var ac = ConvertRed(a: a, b: b, c: c);
+            Console.WriteLine(value: ac);
+            FinalBA.Add(item: Convert.ToString(ac, 2));
         }
 
-        public void Run()
+        FinalBA.RemoveAt(0);
+
+    }
+
+    internal int ConvertRed(int a, int b, int c)
+    {
+        int v = (a + b) / 2;
+        switch (v)
         {
-            Console.WriteLine($"Исходное значение: {input}");
-            ConvertLine();
-
-            Console.WriteLine($"XY: {string.Join(" ", finalXY)}");
-            Console.WriteLine($"BA: {string.Join(" ", finalBA)}");
-            
+            case 0:
+                c = 0b00;
+                break;
+            case >= 1 and < 2:
+                c = 0b01;
+                break;
+            case >= 2 and < 3:
+                c = 0b10;
+                break;
+            case >= 3 and < 4:
+                c = 0b11;
+                break;
         }
+        return c;
+    }
+
+    public void Run()
+    {
+        Console.WriteLine(value: $"Исходное значение: {Input}");
+        ConvertLine();
+
+        Console.WriteLine(value: $"XY: {string.Join(" ", FinalXY)}");
+        Console.WriteLine(value: $"BA: {string.Join(" ", FinalBA)}");
+
     }
 }
