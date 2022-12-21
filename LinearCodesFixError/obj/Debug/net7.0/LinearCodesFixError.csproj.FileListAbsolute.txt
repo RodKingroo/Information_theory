@@ -1,0 +1,15 @@
+D:\Codes\Information_theory\LinearCodesFixError\bin\Debug\net7.0\LinearCodesFixError.exe
+D:\Codes\Information_theory\LinearCodesFixError\bin\Debug\net7.0\LinearCodesFixError.deps.json
+D:\Codes\Information_theory\LinearCodesFixError\bin\Debug\net7.0\LinearCodesFixError.runtimeconfig.json
+D:\Codes\Information_theory\LinearCodesFixError\bin\Debug\net7.0\LinearCodesFixError.dll
+D:\Codes\Information_theory\LinearCodesFixError\bin\Debug\net7.0\LinearCodesFixError.pdb
+D:\Codes\Information_theory\LinearCodesFixError\obj\Debug\net7.0\LinearCodesFixError.csproj.AssemblyReference.cache
+D:\Codes\Information_theory\LinearCodesFixError\obj\Debug\net7.0\LinearCodesFixError.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codes\Information_theory\LinearCodesFixError\obj\Debug\net7.0\LinearCodesFixError.AssemblyInfoInputs.cache
+D:\Codes\Information_theory\LinearCodesFixError\obj\Debug\net7.0\LinearCodesFixError.AssemblyInfo.cs
+D:\Codes\Information_theory\LinearCodesFixError\obj\Debug\net7.0\LinearCodesFixError.csproj.CoreCompileInputs.cache
+D:\Codes\Information_theory\LinearCodesFixError\obj\Debug\net7.0\LinearCodesFixError.dll
+D:\Codes\Information_theory\LinearCodesFixError\obj\Debug\net7.0\LinearCodesFixError.pdb
+D:\Codes\Information_theory\LinearCodesFixError\obj\Debug\net7.0\LinearCodesFixError.genruntimeconfig.cache
+D:\Codes\Information_theory\LinearCodesFixError\obj\Debug\net7.0\ref\LinearCodesFixError.dll
+D:\Codes\Information_theory\LinearCodesFixError\obj\Debug\net7.0\refint\LinearCodesFixError.dll
