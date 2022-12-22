@@ -4,7 +4,7 @@ public class Host
 {
 
     protected Dictionary<int, int> table = new Dictionary<int, int>();
-    protected int[] G = {8, 4, 2, 1, 9, 12, 6, 6, 3};
+    protected int[] G = { 8, 4, 2, 1, 11, 14, 6, 15 };
 
     private static int w(int x)
     {
@@ -90,6 +90,6 @@ public class Host
             words[i] = (byte)word;
 
         }
-        File.WriteAllBytes(path: "fiaso.wtf", bytes: words);
+        File.WriteAllBytes(path: "fiaso.png", bytes: words);
     }
 }
